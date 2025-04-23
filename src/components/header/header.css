@@ -1,3 +1,23 @@
 header{
     background-color: rgba(245, 239, 230, 1);
+    padding-top: 100px;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left{
+    position: relative;
+}
+.header__right{
+    text-align: end;
+    /* display: flex;
+    justify-content: flex-end;
+    flex-direction: column; */
+}
+.header__img{
+    position: absolute;
+    /* top: 0; */
+    /* left: 0; */
 }
