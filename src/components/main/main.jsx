@@ -70,6 +70,16 @@ const main = () => {
               <img src={hero2} alt="" className="img" />
               <p className="boxs__text">Zumrad (AB)</p>
             </div>
+            <div className="boxs">
+              <img src={main2} alt="#" className="main__pic" />
+              <img src={hero2} alt="" className="img" />
+              <p className="boxs__text">Zumrad (AB)</p>
+            </div>
+            <div className="boxs">
+              <img src={main1} alt="#" className="main__pic" />
+              <img src={hero2} alt="" className="img" />
+              <p className="boxs__text">Safari</p>
+            </div>
           </div>
         </div>
     </div>

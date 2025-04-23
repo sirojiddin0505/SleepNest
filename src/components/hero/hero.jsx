@@ -67,6 +67,16 @@ const hero = () => {
             <div className="boxs">
               <img src={boxs8} alt="#" className="hero__pic" />
               <img src={hero2} alt="" className="img" />
+              <p className="boxs__text">Ikat</p>
+            </div>
+            <div className="boxs">
+              <img src={boxs3} alt="#" className="hero__pic" />
+              <img src={hero2} alt="" className="img" />
+              <p className="boxs__text">Bambi</p>
+            </div>
+            <div className="boxs">
+              <img src={boxs2} alt="#" className="hero__pic" />
+              <img src={hero2} alt="" className="img" />
               <p className="boxs__text">Kvadratchalar</p>
             </div>
           </div>
