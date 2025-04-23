@@ -1,0 +1,71 @@
+nav{
+    background-color: rgba(255, 255, 255, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.nav__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav__logo{
+    max-width: 100%;
+}
+.nav__link:hover{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    vertical-align: middle;  
+    color: rgba(161, 127, 74, 1);  
+}
+.nav__link{
+    color: rgba(0, 0, 0, 0.596);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+select{
+    font-weight: 700;
+    font-size: 19.22px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.65);
+    background-color: rgba(161, 127, 74, 1);
+    padding: 5px 18px 4px 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+.hum__menu{
+    display: none;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(51, 48, 48);
+    cursor: pointer;
+}
+
+@media screen and (max-width:950px) {
+    .nav__link, select{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:770px){
+    .hum__menu{
+        display: block;
+    }
+    .nav__link{
+        display: none;
+    }
+    .nav__container{
+        padding: 0 20px;
+    }
+}
