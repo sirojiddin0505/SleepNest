@@ -4,6 +4,7 @@ import Nav from './components/nav/nav'
 import Header from './components/header/header'
 import Contact from './components/contact/contact'
 import Hero from './components/hero/hero'
+import Main from './components/main/main'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Contact/>
       <Hero/>
+      <Main/>
     </>
   )
 }

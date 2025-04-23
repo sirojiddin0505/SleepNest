@@ -4,12 +4,13 @@ nav{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
 }
 .nav__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    padding: 10px 20px;
 }
 .nav__right{
     display: flex;
