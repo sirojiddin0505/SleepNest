@@ -164,4 +164,9 @@
           width: 350px;
           top: -2%;
       }
+      .main__boxs{
+        gap: 5px;
+        padding: 25px;
+        row-gap: 25px;
+      }
 }

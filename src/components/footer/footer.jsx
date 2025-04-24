@@ -29,7 +29,7 @@ const footer = () => {
                 <h2 className="footer__title">Elektron pochtamizga obuna bo'ling</h2>
                 <div className="input__wrapper">
                 <form action="#">
-                    <input type="email" placeholder="Elektron pochtamizga obuna bo'ling"/>
+                    <input type="email" placeholder="Elektron pochtangizni kiriting"/>
                     <button className='footer__btn'>Obuna Bo'ling</button>
                 </form>
                 </div>

@@ -172,4 +172,9 @@
         font-size: 14px;
         padding-bottom: 20px;
       }
+      .hero__boxs{
+        gap: 5px;
+        padding: 25px;
+        row-gap: 25px;
+      }
 }

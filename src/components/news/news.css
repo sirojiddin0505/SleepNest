@@ -72,6 +72,9 @@
         font-size: 30px;
         padding: 10px 0;
     }
+    .news__list{
+        row-gap: 30px;
+    }
     .news__item{
         width: 250px;
     }
