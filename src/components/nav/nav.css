@@ -5,6 +5,7 @@ nav{
     left: 0;
     right: 0;
     z-index: 100;
+    box-shadow: 5px 5px 15px rgb(181, 180, 179);
 }
 .nav__container{
     display: flex;

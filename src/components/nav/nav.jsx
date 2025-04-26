@@ -41,7 +41,6 @@ const Nav = () => {
           <a href="#" className="nav__link">To'plam</a>
           <a href="#" className="nav__link">Biz haqimizda</a>
           <a href="#" className="nav__link">Kontaktlar</a>
-
           <div className="custom-language-select" ref={dropdownRef}>
             <div className="selected-lang" onClick={() => setIsOpen(!isOpen)}>
               {selectedLang.short}
@@ -60,7 +59,6 @@ const Nav = () => {
               </div>
             )}
           </div>
-
           <div className="hum__menu" id="hum__menu">☰</div>
         </div>
       </div>

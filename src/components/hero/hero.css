@@ -78,6 +78,14 @@
     cursor: pointer;
     max-width: 100%;
     width: 280px;
+    box-shadow: 5px 5px 15px rgb(222, 221, 221);
+    padding: 10px;
+    border-radius: 12px;
+}
+.boxs__text{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 4px 0;
 }
 .img{
     position: absolute;
@@ -171,10 +179,13 @@
     .hero__text{
         font-size: 14px;
         padding-bottom: 20px;
-      }
-      .hero__boxs{
+    }
+    .hero__boxs{
         gap: 5px;
         padding: 25px;
         row-gap: 25px;
-      }
+    }
+    .boxs{
+        padding: 5px;
+    }
 }

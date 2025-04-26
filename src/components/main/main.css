@@ -78,6 +78,14 @@
     cursor: pointer;
     max-width: 100%;
     width: 280px; 
+    box-shadow: 5px 5px 15px rgb(222, 221, 221);
+    padding: 10px;
+    border-radius: 12px;
+}
+.boxs__text{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 4px 0;
 }
 .img{
     position: absolute;
@@ -155,18 +163,18 @@
       .list__subtitle{
           font-size: 16px;
       }
-      .list__info{
+    .list__info{
           font-size: 12px;
           padding: 10px 0;
-      }
-      .main__img{
+    }
+    .main__img{
           height: 300px;
           width: 350px;
           top: -2%;
-      }
-      .main__boxs{
+    }
+    .main__boxs{
         gap: 5px;
         padding: 25px;
         row-gap: 25px;
-      }
+    }
 }
